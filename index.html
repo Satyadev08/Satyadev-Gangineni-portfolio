@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satyadev Gangineni | Robotics Portfolio</title>
+    <meta
+      name="description"
+      content="Minimal robotics portfolio of Satyadev Gangineni – Robotics graduate student at UC Riverside specializing in planning, control, and autonomous systems."
+    />
+    <link rel="stylesheet" href="styles.CSS" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo-mark">
+          <span class="logo-dot"></span>
+          <span class="logo-text">SG</span>
+        </div>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Toggle dark and light mode"
+        >
+          <span class="theme-icon theme-icon--moon">●</span>
+          <span class="theme-icon theme-icon--sun">◎</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="hero-kicker">Robotics · Control · Perception</p>
+            <h1 class="hero-title">Satyadev Gangineni</h1>
+            <p class="hero-subtitle">
+              Robotics engineer focused on planning, control, and autonomous
+              systems — from ROS-based mobile robots to precision motion stages
+              and hybrid EV energy management.
+            </p>
+            <div class="hero-meta">
+              <p>M.S. Robotics · University of California, Riverside</p>
+              <p>B.Tech Mechatronics · Symbiosis Skills and Professional University</p>
+            </div>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">View Robotics Work</a>
+              <a
+                class="btn ghost"
+                href="https://www.linkedin.com/in/satyadev-gangineni/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn Profile
+              </a>
+            </div>
+          </div>
+          <div class="hero-panel" aria-hidden="true">
+            <div class="orbit">
+              <div class="orbit-ring orbit-ring--outer"></div>
+              <div class="orbit-ring orbit-ring--inner"></div>
+              <div class="orbit-node orbit-node--lidar">LiDAR</div>
+              <div class="orbit-node orbit-node--control">MPC</div>
+              <div class="orbit-node orbit-node--ros">ROS</div>
+              <div class="orbit-core">Autonomous<br />Systems</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container section-inner">
+          <div class="section-header">
+            <h2>About</h2>
+            <p>
+              I design and build robotic systems that move, sense, and make
+              decisions in the real world.
+            </p>
+          </div>
+          <div class="section-grid section-grid--two">
+            <div class="card">
+              <p>
+                My work spans mobile robots, dual-arm manipulators, precision
+                motion stages, and energy management for hybrid electric
+                vehicles. I enjoy bridging
+                <span class="highlight">planning &amp; control</span> with
+                <span class="highlight">perception &amp; hardware</span> to
+                deliver reliable, deployable systems.
+              </p>
+              <p>
+                At UC Riverside, I focus on robotics planning, sensing,
+                navigation, and reinforcement learning. Previously, I worked on
+                industrial automation and motion control projects across
+                research labs and startups.
+              </p>
+            </div>
+            <div class="card card--compact">
+              <h3 class="card-title">Domains of interest</h3>
+              <ul class="pill-list">
+                <li>Autonomous mobile robots</li>
+                <li>Planning &amp; control</li>
+                <li>Visual &amp; LiDAR perception</li>
+                <li>Manipulation</li>
+                <li>Energy systems</li>
+                <li>Industrial automation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container section-inner">
+          <div class="section-header">
+            <h2>Technical Focus</h2>
+          </div>
+          <div class="section-grid section-grid--three">
+            <article class="card">
+              <h3 class="card-title">Robotic Systems</h3>
+              <ul class="tag-list">
+                <li>ROS1 (Noetic)</li>
+                <li>Gazebo · RViz · MoveIt</li>
+                <li>SLAM (GMapping, AMCL)</li>
+                <li>A* path planning</li>
+                <li>Navigation Stack</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3 class="card-title">Control &amp; Planning</h3>
+              <ul class="tag-list">
+                <li>PID &amp; MPC control</li>
+                <li>Kinematic &amp; dynamic modeling</li>
+                <li>Trajectory tracking</li>
+                <li>Real-time controller implementation</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3 class="card-title">Perception &amp; Localization</h3>
+              <ul class="tag-list">
+                <li>LiDAR · RGB-D · IMU fusion</li>
+                <li>Obstacle detection &amp; avoidance</li>
+                <li>DBF, TTCF</li>
+                <li>Visual SLAM</li>
+                <li>OpenCV OCR</li>
+              </ul>
+            </article>
+          </div>
+          <div class="section-grid section-grid--three section-grid--compact">
+            <article class="card card--compact">
+              <h3 class="card-title">Software &amp; Simulation</h3>
+              <ul class="tag-list">
+                <li>Python · C++</li>
+                <li>MATLAB/Simulink</li>
+                <li>Linux · Git · Docker</li>
+              </ul>
+            </article>
+            <article class="card card--compact">
+              <h3 class="card-title">Hardware &amp; Electronics</h3>
+              <ul class="tag-list">
+                <li>BeagleBone AI-64</li>
+                <li>STM32 · Arduino</li>
+                <li>Stepper/BLDC drivers</li>
+                <li>Sensor integration · PCB design</li>
+                <li>3D printing</li>
+              </ul>
+            </article>
+            <article class="card card--compact">
+              <h3 class="card-title">Industrial Automation</h3>
+              <ul class="tag-list">
+                <li>Siemens S7-1500 PLC</li>
+                <li>TIA Portal · Ladder logic</li>
+                <li>HMI design</li>
+                <li>Process automation &amp; control</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container section-inner">
+          <div class="section-header">
+            <h2>Experience</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <p class="timeline-role">Project Assistant</p>
+                <p class="timeline-org">IIT Hyderabad</p>
+                <p class="timeline-time">Aug 2023 – Jun 2024</p>
+              </div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">
+                  Precision XYZ Micro-Positioning Stage
+                </h3>
+                <ul>
+                  <li>
+                    Designed and programmed a motorized XYZ stage for
+                    micro-scale positioning with high-precision controllers.
+                  </li>
+                  <li>
+                    Integrated sensors and actuators for closed-loop motion
+                    control with a simple GUI for operation.
+                  </li>
+                  <li>
+                    Applied 3D printing and CAD optimization to improve
+                    mechanical stability and repeatability.
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <p class="timeline-role">Robotics Intern</p>
+                <p class="timeline-org">ITechRobotics</p>
+                <p class="timeline-time">Jul 2022 – Dec 2022</p>
+              </div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">
+                  Dual-Arm Cooperative Robot &amp; Shiny Metal Text Recognition
+                </h3>
+                <ul>
+                  <li>
+                    Contributed to motion control and coordination of dual-arm
+                    manipulators using vision feedback.
+                  </li>
+                  <li>
+                    Implemented an OCR-based perception pipeline in OpenCV for
+                    reflective surfaces.
+                  </li>
+                  <li>
+                    Improved arm synchronization through iterative testing and
+                    sensor calibration.
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <p class="timeline-role">Design Intern</p>
+                <p class="timeline-org">Machine House Technology</p>
+                <p class="timeline-time">Aug 2021 – Sep 2021</p>
+              </div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">
+                  Coil Winding Automation for Motors &amp; Transformers
+                </h3>
+                <ul>
+                  <li>
+                    Assisted in designing automation systems for coil winding
+                    with integrated electromechanical components.
+                  </li>
+                  <li>
+                    Produced engineering drawings and 3D models in SolidWorks to
+                    support manufacturing.
+                  </li>
+                  <li>
+                    Helped assemble and test automated machinery for production
+                    environments.
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container section-inner">
+          <div class="section-header">
+            <h2>Selected Projects</h2>
+          </div>
+          <div class="section-grid section-grid--three">
+            <article class="card">
+              <h3 class="card-title">
+                Hospital Assistance Robot for Medicine Delivery
+              </h3>
+              <p class="card-meta">ROS · SLAM · Navigation Stack</p>
+              <p>
+                Built a ROS-based mobile robot for autonomous medicine delivery
+                in hospital environments with SLAM, A* path planning, and
+                real-time obstacle avoidance.
+              </p>
+              <ul class="card-list">
+                <li>Simulated in Gazebo with LiDAR and RGB-D sensors.</li>
+                <li>Implemented mapping, localization, and sensor fusion.</li>
+                <li>
+                  Focused on safe navigation and human-aware interaction in
+                  corridors.
+                </li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title">
+                Hybrid Electric Vehicle Energy Management System
+              </h3>
+              <p class="card-meta">MATLAB/Simulink · Control</p>
+              <p>
+                Developed and simulated an EMS integrating fuel cell, battery,
+                and ultracapacitor for hybrid EV power management.
+              </p>
+              <ul class="card-list">
+                <li>
+                  Designed control strategies for power split and regenerative
+                  braking.
+                </li>
+                <li>Reduced battery stress under FTP-75 drive cycles.</li>
+                <li>
+                  Automated performance analysis via custom evaluation scripts.
+                </li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title">
+                PLC-Based Automation with Siemens S7-1500
+              </h3>
+              <p class="card-meta">Industrial Automation · TIA Portal</p>
+              <p>
+                Implemented PLC logic for motor and sensor control using ladder
+                logic and FBDs in TIA Portal for an industrial automation setup.
+              </p>
+              <ul class="card-list">
+                <li>
+                  Configured I/O modules and integrated an HMI for monitoring.
+                </li>
+                <li>Added safe manual overrides and fault handling.</li>
+                <li>
+                  Simulated system operation for debugging and commissioning.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--compact" id="contact">
+        <div class="container section-inner">
+          <div class="section-header">
+            <h2>Contact</h2>
+            <p>
+              I’m open to roles and collaborations in robotics, autonomous
+              systems, and industrial automation.
+            </p>
+          </div>
+          <div class="contact-grid">
+            <div class="card card--compact">
+              <dl class="contact-list">
+                <div class="contact-row">
+                  <dt>Email</dt>
+                  <dd>
+                    <a href="mailto:gsatyadev2002@gmail.com"
+                      >gsatyadev2002@gmail.com</a
+                    >
+                  </dd>
+                </div>
+                <div class="contact-row">
+                  <dt>Phone</dt>
+                  <dd>
+                    <a href="tel:+19512053822">+1 (951) 205-3822</a>
+                  </dd>
+                </div>
+                <div class="contact-row">
+                  <dt>LinkedIn</dt>
+                  <dd>
+                    <a
+                      href="https://www.linkedin.com/in/satyadev-gangineni/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      /in/satyadev-gangineni
+                    </a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+            <p class="contact-note">
+              Full resume available on request or via LinkedIn. This site is a
+              minimal snapshot of my robotics work and interests.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          © <span id="year"></span> Satyadev Gangineni · Built with HTML, CSS,
+          and JavaScript
+        </p>
+        <a href="#top" class="back-to-top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
