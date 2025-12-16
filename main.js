@@ -22,16 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
     toggle.addEventListener('click', () => {
       const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
       const next = current === 'dark' ? 'light' : 'dark';
-      
-      // Add a class for animation
-      root.classList.add('theme-transitioning');
       root.setAttribute('data-theme', next);
       window.localStorage.setItem('sg-theme', next);
-      
-      // Remove transition class after animation completes
-      setTimeout(() => {
-        root.classList.remove('theme-transitioning');
-      }, 400);
     });
   }
 
